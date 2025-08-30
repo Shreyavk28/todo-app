@@ -64,7 +64,7 @@ Run backend:
 });
 
 
-📂 Project Structure
+## 📂 Project Structure
 todo-app/
 │── backend/          # Express + MongoDB API
 │   ├── models/       # User & Task schemas
