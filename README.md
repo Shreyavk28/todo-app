@@ -26,45 +26,50 @@ Includes **JWT authentication**, **task prioritization**, **due dates**, and a *
 
 ## ⚙️ Installation & Setup
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/todo-app.git
-   cd todo-app
-   
-2. Backend Setup
-   cd backend
-   npm install
-   
-Create a .env file inside backend/:
-  PORT=5000
-  MONGO_URI=your_mongo_connection_string
-  JWT_SECRET=your_secret_key
-  JWT_EXPIRES=7d
-  
-Run backend:
-  npm start
-  Runs on → http://localhost:5000 
-  
-3. Frontend Setup
-   cd ../frontend
-   npm install 
-   npm start
+# 1. Clone the repository
+git clone https://github.com/yourusername/todo-app.git
+cd todo-app
 
-📸 Screenshots
+# 2. Backend Setup
+cd backend
+npm install
 
+# Create a .env file inside backend/
+PORT=5000
+MONGO_URI=your_mongo_connection_string
+JWT_SECRET=your_secret_key
+JWT_EXPIRES=7d
 
-🚀 Deployment
+# Run backend
+npm start
+# → Runs on http://localhost:5000 
 
-  Backend → Render / Heroku / Vercel
-  Frontend → Netlify / Vercel
- 👉 Update frontend/src/api.js with your deployed backend URL:
+# 3. Frontend Setup
+cd ../frontend
+npm install
+npm start
 
- const api = axios.create({
+---
+
+## 📸 Screenshots
+(Add your app screenshots here)
+
+---
+
+## 🚀 Deployment
+- **Backend** → Render / Heroku / Vercel  
+- **Frontend** → Netlify / Vercel  
+
+👉 Update `frontend/src/api.js` with your deployed backend URL:
+```javascript
+const api = axios.create({
   baseURL: "https://your-backend-url.com/api",
 });
 
+---
 
 ## 📂 Project Structure
+```plaintext
 todo-app/
 │── backend/          # Express + MongoDB API
 │   ├── models/       # User & Task schemas
@@ -83,3 +88,4 @@ todo-app/
 │   └── index.css
 │
 └── README.md
+
