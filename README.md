@@ -52,7 +52,13 @@ npm start
 ---
 
 ## 📸 Screenshots
-(Add your app screenshots here)
+
+### 🔐 Signup Page  
+![Signup Page](./frontend/screenshots/Signup.png)  
+### 🔐 Login Page  
+![Login Page](./frontend/screenshots/login.png)  
+### 🏠 Dashboard 
+![Dashboard](./frontend/screenshots/dashboard.png)
 
 ---
 
