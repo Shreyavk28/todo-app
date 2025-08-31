@@ -42,7 +42,7 @@ JWT_EXPIRES=7d
 
 ## Run backend
 npm start
-# → Runs on http://localhost:5000 
+## → Runs on http://localhost:5000 
 
 ## 3. Frontend Setup
 cd ../frontend
