@@ -1,4 +1,4 @@
-## ✅ Task Management Web App (MERN Stack)
+# ✅ Task Management Web App (MERN Stack)
 
 A full-stack **Task Management Web App** built with the **MERN stack (MongoDB, Express, React, Node.js)**.  
 Includes **JWT authentication**, **task prioritization**, **due dates**, and a **modern dark-themed UI**.  
