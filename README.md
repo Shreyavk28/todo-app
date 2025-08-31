@@ -26,25 +26,25 @@ Includes **JWT authentication**, **task prioritization**, **due dates**, and a *
 
 ## ⚙️ Installation & Setup
 
-# 1. Clone the repository
+## 1. Clone the repository
 git clone https://github.com/yourusername/todo-app.git
 cd todo-app
 
-# 2. Backend Setup
+## 2. Backend Setup
 cd backend
 npm install
 
-# Create a .env file inside backend/
+## Create a .env file inside backend/
 PORT=5000
 MONGO_URI=your_mongo_connection_string
 JWT_SECRET=your_secret_key
 JWT_EXPIRES=7d
 
-# Run backend
+## Run backend
 npm start
 # → Runs on http://localhost:5000 
 
-# 3. Frontend Setup
+## 3. Frontend Setup
 cd ../frontend
 npm install
 npm start
